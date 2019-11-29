@@ -22,6 +22,10 @@ En sortie: [
  */
 
 function getStringsLength(strings) {
+    return strings.map(function (food) {
+        return food + " contains " + food.length + " characters"
+    })
+
 }
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
